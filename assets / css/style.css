@@ -180,72 +180,90 @@ div aside {
     text-decoration: underline;
 }
 
-
-  /* main {
-    margin-top: 5%;
+.wrap{
     display: flex;
-    Turns this element into a flexbox */
-    /* Forces elements to the next line if they don't fit */
-    /* flex-wrap: wrap;
-  } */
-
-/* nav {
-    display: inline;
-    text-align: right;
-  }
-   */
-
-
-  /* main {
-    display: flex;
-  } */
-  
-  /* section {  
-    float: left;
-    width: 15%;
-    border-right: 1mm solid black;
-    text-align: right;
-    flex-direction: left;
-    background-color: white;
-    color: black
-  }
-  
-  aside {
-    flex: 70%;
-    background-color: #fff;
-    padding: 50px;
-}
-
-.flex-container{
-    display: flex;
-    background-color: rgb(3, 111, 111);
-    flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
-}
 
-.surf-report {
-    flex: 1 0 200px;
-    padding: 10px;
-    text-align: center;
+}
+.box1 {
+    background-color: blue;
+    height: 340px;
+    margin-top: -65px;
+    width: 1630px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 10px;
+    border-color: black;
 }
 
-/* .square {
-  display:flex;
-    flex: 4 2 200px;
-} */
-
-/* .flex-item:first-child{
-  flex-basis: 100%;
+.box2 {
+    background-color: rgb(255, 0, 51);
+    height: 160px;
+    width: 794px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+    margin-left: 0px;
 }
 
+
+ .box3 {
+    background-color: rgb(17, 37, 44);
+    height: 160px;
+    width: 815px;
+    margin-top: -180px;
+    margin-left: 10px;
+    margin-right: -18px;
+    float: right;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(255, 0, 0);
+}
+
+.box4 {
+    background-color: rgb(204, 255, 0);
+    height: 160px;
+    width: 794px;
+    border-width: 10px;
+    border-color: #01ff00;
+    border-style: solid;
+}
+
+.box5 {
+    background-color: rgb(255, 0, 221);
+    height: 160px;
+    width: 815px;
+    margin-top: -180px;
+    margin-right: -18px;
+    float: right;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(255 101 0);
+
+} 
+
+div h3 {
+    color: #00bfff;
+}
+
+/* 
 @media screen and (max-width: 600px) {
-  .boxheader {
-    background-color: turquoise;
-    display: inline-block;
-  }
+    .boxheader {
+      background-color: turquoise;
+      display: inline-block; 
+      text-align: wrap;
+    }
+  } */
 
 
-} */ 
+
+
+
+
+
+
+
+
+
+
+
+  

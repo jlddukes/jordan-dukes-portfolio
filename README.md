@@ -10,6 +10,10 @@ N/A
 ## Usage
 To use this portfolio, use the above and below navigation links for contact and viewing of my social media. Please use proper edicate when viewing links to my personal information. 
 
+![Alt text](assets/pictures/Screenshot1.png "Screenshot1")
+
+![Alt text](assets/pictures/Screenshot2.png "Screenshot2")
+
 ## Credits
 
 ## Liscense

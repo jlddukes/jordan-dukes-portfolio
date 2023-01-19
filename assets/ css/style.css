@@ -46,10 +46,12 @@ nav ul li {
     color: aqua;
     background-image: linear-gradient(180deg, red, yellow);
     height: 49px;
-    padding: 92px 19px 77px 694px;
     padding-top: 90px;
     padding-bottom: 16px;
+    display: flex;
+    justify-content: flex-end;
 }
+
 
 .jumbotron h2 {
     background-color: rgb(69, 46, 58);
@@ -58,17 +60,20 @@ nav ul li {
     padding-left: 9px;
     padding-top: 14px;
     text-align: right;
-    margin-left: 965px;
 }
 
+.picture {
+    height: 20vh;
+    background-image: url ('../pictures/Screenshot1.png');
+}
 
 body {
-    /* display: flex; */
     font-family: Arial, 'Times New Roman', Times, serif;
     margin: 0;
     line-height: 1;
     flex-direction: column;
     background-color: rgb(249, 247, 245);
+    width: 100%
   }
   
 div section {
@@ -157,11 +162,11 @@ div aside {
 
 .lol2 {
     float: right;
-    margin: 0% 15%;
-    width: 85%;
-    position: absolute;
+    /* margin: 0% 15%; */
+    width: 80%;
+    /* position: absolute; */
     margin-top: 135px;
-    margin-left: 100px;
+    /* margin-left: 86px; */
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -171,13 +176,14 @@ div aside {
 .wrap{
     display: flex;
     flex-wrap: wrap;
+    width: 100%
 
 }
 .box1 {
     background-color: blue;
     height: 340px;
     margin-top: -65px;
-    width: 1630px;
+    width: 92.6%;
     border-style: solid;
     border-width: 10px;
     border-color: black;
@@ -186,7 +192,7 @@ div aside {
 .box2 {
     background-color: rgb(255, 0, 51);
     height: 160px;
-    width: 794px;
+    width: 45.25%;
     border-style: solid;
     border-width: 10px;
     border-color: blue;
@@ -197,10 +203,10 @@ div aside {
  .box3 {
     background-color: rgb(17, 37, 44);
     height: 160px;
-    width: 815px;
+    width: 45.25%;
     margin-top: -180px;
     margin-left: 10px;
-    margin-right: -18px;
+    margin-right: 70.5px;
     float: right;
     border-style: solid;
     border-width: 10px;
@@ -210,7 +216,7 @@ div aside {
 .box4 {
     background-color: rgb(204, 255, 0);
     height: 160px;
-    width: 794px;
+    width: 45.25%;
     border-width: 10px;
     border-color: #01ff00;
     border-style: solid;
@@ -219,9 +225,9 @@ div aside {
 .box5 {
     background-color: rgb(255, 0, 221);
     height: 160px;
-    width: 815px;
+    width: 45.25%;
     margin-top: -180px;
-    margin-right: -18px;
+    margin-right: 70.5px;
     float: right;
     border-style: solid;
     border-width: 10px;

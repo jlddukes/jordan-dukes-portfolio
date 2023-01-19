@@ -85,13 +85,11 @@ div section {
 
 }
 
-
+/* Turns this element into a flexbox */
+/* Forces elements to the next line if they don't fit */
 main {
     margin-top: 5%;
     display: flex;
-    /* Turns this element into a flexbox */
-    /* Forces elements to the next line if they don't fit */
-    /* flex-wrap: wrap; */
   }
 
 
@@ -162,11 +160,8 @@ div aside {
 
 .lol2 {
     float: right;
-    /* margin: 0% 15%; */
     width: 80%;
-    /* position: absolute; */
     margin-top: 135px;
-    /* margin-left: 86px; */
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -177,8 +172,10 @@ div aside {
     display: flex;
     flex-wrap: wrap;
     width: 100%
-
 }
+
+/* Code below is for each box that repreesnts my work */
+
 .box1 {
     background-color: blue;
     height: 340px;
@@ -198,7 +195,6 @@ div aside {
     border-color: blue;
     margin-left: 0px;
 }
-
 
  .box3 {
     background-color: rgb(17, 37, 44);

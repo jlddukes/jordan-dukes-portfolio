@@ -1,4 +1,4 @@
-# BOOTCAMP-CHALLENGE2-PROJECT-DOS
+# jordan-dukes-portfolio
 This repository was created to help with guiding me in making my technical coding portfolio.
 
 ## Description
